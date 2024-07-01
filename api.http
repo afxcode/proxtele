@@ -1,0 +1,10 @@
+POST http://localhost:8080/message
+Content-Type: application/json
+
+{
+  "title": "Backup VM",
+  "message": "Details\n  =======\n  VMID    Name                    Status    Time         Size          Filename\n  100     vm001           ok        26min 36s    17.354 GiB    /mnt/pve/truenas-pve-backup/dump/vzdump-qemu-100-2024_07_01-02_00_07.vma.zst\n  101     vm002              ok        9min 47s     6.242 GiB     /mnt/pve/truenas-pve-backup/dump/vzdump-qemu-101-2024_07_01-02_26_43.vma.zst\n  102     vm003    ok        4min 48s     2.981 GiB     /mnt/pve/truenas-pve-backup/dump/vzdump-qemu-102-2024_07_01-02_36_30.vma.zst",
+  "priority": 1
+}
+
+###
